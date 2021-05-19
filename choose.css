@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-txt{
+    text-align: center;
+    width: 70%;
+}
+.choose-txt p{
+    line-height: 2rem;
+    text-align: left;
+}
+.choose-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-img p{
+    width: 70%;
+    text-align: left;
+    line-height: 2rem;
+}
+.factors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.factors-txt ul{
+    text-align: left;
+    /* list-style: none; */
+    line-height: 2rem;
+}
+.factors-txt span{
+    display: inline-block;
+}
+.factors-txt span::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.factors-txt span:hover::after{
+    width: 100%;
+}
+.skatetape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skatetape-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skatetape img{
+    width: 90%;
+    margin-top: 50px;
+}
+.skatetape-txt{
+    margin-top: 50px;
+    align-self: center;
+}  
+.skatetape-txt a{
+    text-decoration: none;
+    color: black;
+}
+.skatetape-txt li{
+    width: 900px;
+    margin-bottom: 2rem;
+}
+.skatetape-txt a::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.skatetape-txt a:hover::after{
+    width: 100%;
+}
+.row-2{
+	display: flex;
+	flex-wrap: nowrap;
+    justify-content: space-around;
+}
